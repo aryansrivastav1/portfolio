@@ -35,6 +35,12 @@ document.querySelector("#openPopupBtn").addEventListener("click", function (even
 
     if (name === "" || email === "" || query === "") {
       document.querySelector("#formError").style.visibility = "visible";
+
+      // Hide the error message after 5 seconds
+      setTimeout(function () {
+        document.querySelector("#formError").style.visibility = "hidden";
+      }, 3000);
+
       return;
     }
 
