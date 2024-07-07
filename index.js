@@ -61,4 +61,5 @@ document.querySelector("#closePopupBtn").addEventListener("click", function () {
   document.querySelector("#popup").classList.remove("active");
   document.querySelector("#popup-overlay").classList.remove("active");
   document.querySelector("body").classList.remove("popup-active");
+  document.querySelector("#form").reset();
 });
