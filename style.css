@@ -689,13 +689,13 @@ footer h1 {
   position: fixed;
   bottom: 2.5rem;
   right: 3.5rem;
-  visibility: visible;
+  visibility: hidden;
   transition: 0.2s ease-in-out;
 }
 
 .top.active {
   pointer-events: auto;
-  visibility: hidden;
+  visibility: visible;
 }
 
 .top i {
